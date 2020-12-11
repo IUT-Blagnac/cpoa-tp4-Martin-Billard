@@ -1,8 +1,10 @@
-import action.ActionList;
-import application.AccesAgenceBancaire;
-import application.action.*;
-import application.actionList.ActionListAgenceBancaire;
-import banque.AgenceBancaire;
+package applicationBanqueBancaireAbstraiteUnPeu;
+
+import applicationBanqueBancaireAbstraiteUnPeu.action.ActionList;
+import applicationBanqueBancaireAbstraiteUnPeu.application.AccesAgenceBancaire;
+import applicationBanqueBancaireAbstraiteUnPeu.application.action.*;
+import applicationBanqueBancaireAbstraiteUnPeu.application.actionList.ActionListAgenceBancaire;
+import applicationBanqueBancaireAbstraiteUnPeu.banque.AgenceBancaire;
 
 public class ApplicationAgenceBancaire {
 

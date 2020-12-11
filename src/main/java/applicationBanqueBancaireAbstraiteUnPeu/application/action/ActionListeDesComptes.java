@@ -1,7 +1,7 @@
-package application.action;
+package applicationBanqueBancaireAbstraiteUnPeu.application.action;
 
-import action.Action;
-import banque.AgenceBancaire;
+import applicationBanqueBancaireAbstraiteUnPeu.action.Action;
+import applicationBanqueBancaireAbstraiteUnPeu.banque.AgenceBancaire;
 
 public class ActionListeDesComptes implements Action<AgenceBancaire> {
 

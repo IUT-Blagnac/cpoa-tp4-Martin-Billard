@@ -1,9 +1,9 @@
-package application.action;
+package applicationBanqueActionGenerique.application.action;
 
-import action.Action;
-import banque.AgenceBancaire;
+import applicationBanqueActionGenerique.action.Action;
+import applicationBanqueActionGenerique.banque.AgenceBancaire;
 
-public class ActionListeDesComptes implements Action<AgenceBancaire> {
+public class ActionListeDesComptes implements Action {
 
     String message;
     String code;

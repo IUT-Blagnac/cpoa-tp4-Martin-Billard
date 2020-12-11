@@ -1,8 +1,8 @@
-package application.action;
+package applicationBanqueBancaireAbstraiteUnPeu.application.action;
 
-import action.Action;
-import banque.AgenceBancaire;
-import banque.Compte;
+import applicationBanqueBancaireAbstraiteUnPeu.action.Action;
+import applicationBanqueBancaireAbstraiteUnPeu.banque.AgenceBancaire;
+import applicationBanqueBancaireAbstraiteUnPeu.banque.Compte;
 
 import java.util.Scanner;
 

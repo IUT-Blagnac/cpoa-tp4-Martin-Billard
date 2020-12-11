@@ -1,12 +1,12 @@
-package application.action;
+package applicationBanqueActionGenerique.application.action;
 
-import action.Action;
-import banque.AgenceBancaire;
-import banque.Compte;
+import applicationBanqueActionGenerique.action.Action;
+import applicationBanqueActionGenerique.banque.AgenceBancaire;
+import applicationBanqueActionGenerique.banque.Compte;
 
 import java.util.Scanner;
 
-public class ActionVoirCompteNumero implements Action<AgenceBancaire> {
+public class ActionVoirCompteNumero implements Action {
 
     String message;
     String code;
